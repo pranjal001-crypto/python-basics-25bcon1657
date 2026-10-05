@@ -1,16 +1,16 @@
 from dataclasses import dataclass
 
-# Define the struct-like class
 @dataclass
 class Student:
     name: str
-    roll: int
+    roll_no: int
     marks: float
 
-# Create an instance of Student
-s1 = Student(name="Rahul", roll=101, marks=87.5)
+def display(student):
+    print("Student Name:", student.name)
+    print("Roll Number:", student.roll_no)
+    print("Marks:", student.marks)
 
-# Print the values
-print(f"Name: {s1.name}")
-print(f"Roll number: {s1.roll}")
-print(f"Marks: {s1.marks:.1f}")
+s = Student("Rahul", 101, 87.5)
+
+display(s)
