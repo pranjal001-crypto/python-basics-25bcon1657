@@ -1,6 +1,11 @@
 n = 10
-a, b = 0, 1
+a = 0
+b = 1
+count = 0
 
-for _ in range(n):
-    print(a, end='\t')
-    a, b = b, a + b
+while count < n:
+    print(a, end=" ")
+    c = a + b
+    a = b
+    b = c
+    count += 1
