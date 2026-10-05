@@ -1,26 +1,26 @@
-# python-basics-25bcon1657 
-# Session 4 Python Programs
+# Python Basics - 25BCON1657
 
-## WHAT
-This repository contains six advanced Python programs:
+## Session 4 - Python Programs
 
-factorial.py: Calculates factorial for a number n.
-fibonacci.py: Generates the Fibonacci sequence.
-struct.py: Stores student data using Python @dataclass.
-calculator.py: Performs complex mathematical operations.
-prime_checker.py: Checks if a number is prime.
-palindrome.py: Evaluates string symmetry.
+This repository contains basic Python programs created for Session 4.
 
-## RUN
-You can execute each script directly from your terminal using Python:
-*   `python factorial.py`
-*   `python fibonacci.py`
-*   `python struct.py`
-Execute via terminal: python <filename.py>
+## Programs
 
-## NEEDS
-*   Requires Python 3.7 or higher (for `@dataclass` support).
-*   No external dependencies or installations are required (uses standard library only).
+1. `calculator.py` - Performs addition using a function.
+2. `factorial.py` - Calculates the factorial of a number.
+3. `fibonacci.py` - Generates the Fibonacci series.
+4. `palindrome.py` - Checks whether a number is a palindrome.
+5. `primenumber.py` - Checks whether a number is prime.
+6. `struct.py` - Demonstrates a structure-like data type using Python dataclass.
 
-## WHO
-Created and maintained by the author.
+## Requirements
+
+- Python 3.x
+- No external libraries are required except the built-in `dataclasses` module.
+
+## How to Run
+
+Run any program using:
+
+```bash
+python filename.py
