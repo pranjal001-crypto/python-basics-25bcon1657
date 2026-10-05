@@ -1,10 +1,16 @@
-num = 11
-is_prime = True
+num = int(input("Enter a number: "))
 
-if num > 1:
-    for i in range(2, int(num**0.5) + 1):
+if num < 2:
+    print("Not Prime")
+else:
+    prime = True
+
+    for i in range(2, num):
         if num % i == 0:
-            is_prime = False
+            prime = False
             break
 
-print(f"Is {num} a prime number? {is_prime}")
+    if prime:
+        print("Prime Number")
+    else:
+        print("Not Prime")
